@@ -1,0 +1,245 @@
+@import url('https://fonts.googleapis.com/css2?family=Handlee&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Handlee&family=Potta+One&display=swap');
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  margin: 0;
+  color: white;
+  font-family: 'Handlee', cursive;
+  font-style: bold;
+  font-weight: 300px;
+}
+
+#Home {
+ background-image: url("https://cdn.glitch.com/f75c14cb-18ad-491c-8375-dbb9a11b2a83%2Fred_orange_gradient-other.jpg?v=1611061968647");
+}
+
+.container {
+	width: 92.5%;
+  margin: 0 auto;
+}
+
+.H1-content {
+ font-size: 50px;
+ font-weight: 800;
+}
+
+.H2-content {
+ font-size: 31px;
+ font-weight: 400; 
+}
+
+.content {
+ padding-top: 50px;
+ padding-left: 52px;
+ padding-right: 52px;
+ line-height: 1.0;
+ text-align-last: left; 
+ text-decoration: none;
+ color: white;
+ padding-bottom: 400px;
+}
+
+.H1-content {
+ font-size: 50px;
+ font-weight: 800;
+}
+
+.H2-content {
+ font-size: 31px;
+ font-weight: 400; 
+ font: bold;
+} 
+
+header {
+  background: rgb(254, 255, 255);
+}
+
+
+header::after {
+  content: '';
+  display: table;
+  clear: both;
+}
+
+
+.logo {
+  float: left;
+}
+
+nav {
+  float: right;
+
+}
+
+nav ul {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+nav li {
+  display: inline-block;
+  margin-left: 70px;
+  padding-top: 40px;
+
+  position: relative;
+}
+
+nav a {
+  color: #444;
+  text-decoration: none;
+  text-transform: uppercase;
+  font-size: 18px;
+}
+
+nav a:hover {
+  color: #ff6600;
+}
+
+nav a::before {
+  content: '';
+  display: block;
+  height: 5px;
+  background-color: #444444;
+  font-family: 'Potta One', cursive;
+  position: absolute;
+  top: 0;
+  width: 0%;
+
+  transition: all ease-in-out 250ms;
+}
+
+nav a:hover::before {
+  width: 100%;
+}
+
+
+
+#CommandsMenu {
+height: 100%;
+width: 100%;
+background:#232323;
+}
+
+.content-menu {
+ padding-top: 50px;
+ line-height: 1.0;
+ text-decoration: none;
+ color: white;
+ padding-bottom: 50px;
+}
+
+#Commands-Items {
+ padding-top: 8px;
+ padding-left: 8px;
+}
+
+#Command-List-Header {
+ color: while;
+ text-decoration: none;
+ text-transform: uppercase;
+ font-size: 18px;
+}
+
+ul il :hover {
+  color: #ff6600;
+}
+
+ul {
+  list-style: none;
+
+}
+
+.footer-links{
+ margin: 0;
+ height: 100px;
+ padding-top: 25px;
+ text-align-last: center; 
+}
+
+footer{
+ background-color: #3c0003;
+}
+
+.container-footer {
+	width: 92.5%;
+  margin: 0 auto;
+}
+
+
+@media only screen and (max-width: 1024px) {
+
+nav a {
+  color: #444;
+  text-decoration: none;
+  text-transform: uppercase;
+  font-size: 12px;
+}
+
+nav li {
+  display: inline-block;
+  margin-left: 60px;
+  padding-top: 40px;
+  position: relative;
+}
+
+.logo {
+  float: left;
+  max-width: 80px;
+}
+
+}
+
+
+@media only screen and (min-width: 2200px) { 
+
+.content-menu {
+  padding-top: 50px;
+  line-height: 1.0;
+  text-decoration: none;
+  color: white;
+  padding-bottom: 50px;
+  font-size: 35px;
+}
+
+nav a {
+  color: #444;
+  text-decoration: none;
+  text-transform: uppercase;
+  font-size: 24px;
+}
+
+.H1-content {
+  font-size: 100px;
+  font-weight: 800;
+}
+
+.H2-content {
+  font-size: 60px;
+  font-weight: 400;
+  font: bold;
+}
+
+.footer-links{
+ margin: 0;
+ height: 160px;
+ padding-top: 25px;
+ text-align-last: center; 
+ font-size: 40px;
+}
+
+.container-footer {
+    height: 280px;
+}
+
+}
+
+@media only screen and (max-width: 700px) {
+ html {
+ display: none;
+ }
+}

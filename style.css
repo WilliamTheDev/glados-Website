@@ -1,0 +1,251 @@
+@import url('https://fonts.googleapis.com/css2?family=Handlee&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Handlee&family=Potta+One&display=swap');
+
+html {
+  scroll-behavior: smooth;
+}
+#section-2 {
+ background-color: #232323;
+ 
+}
+
+body {
+  margin: 0;
+  color: white;
+  font-family: 'Handlee', cursive;
+  font-style: bold;
+  font-weight: 300px;
+}
+
+.container {
+	width: 92.5%;
+  margin: 0 auto;
+}
+#Home {
+  background-image: url("https://cdn.glitch.com/f75c14cb-18ad-491c-8375-dbb9a11b2a83%2Fred_orange_gradient-other.jpg?v=1611061968647");
+}
+
+
+.content {
+ padding-top: 50px;
+ padding-left: 52px;
+ padding-right: 52px;
+ line-height: 1.0;
+ text-align-last: center; 
+ text-decoration: none;
+ color: white;
+ padding-bottom: 400px;
+}
+
+.H1-content {
+ font-size: 50px;
+ font-weight: 800;
+}
+
+.H2-content {
+ font-size: 31px;
+ font-weight: 400; 
+
+ font: bold;
+}  .footer-links{
+    margin: 0;
+    height: 100px;
+    margin-top: 175px;
+    padding-top: 25px;
+    text-align-last: center; 
+  }
+
+  footer{
+   background-color: #3c0003;
+  }
+
+header {
+  background: rgb(254, 255, 255);
+}
+
+
+header::after {
+  content: '';
+  display: table;
+  clear: both;
+}
+
+
+.logo {
+  float: left;
+  
+}
+
+nav {
+  float: right;
+
+}
+
+nav ul {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+nav li {
+  display: inline-block;
+  margin-left: 70px;
+  padding-top: 40px;
+
+  position: relative;
+}
+
+nav a {
+  color: #444;
+  text-decoration: none;
+  text-transform: uppercase;
+  font-size: 18px;
+}
+
+nav a:hover {
+  color: #ff6600;
+}
+
+nav a::before {
+  content: '';
+  display: block;
+  height: 5px;
+  background-color: #444444;
+  font-family: 'Potta One', cursive;
+  position: absolute;
+  top: 0;
+  width: 0%;
+
+  transition: all ease-in-out 250ms;
+}
+
+nav a:hover::before {
+  width: 100%;
+}
+
+#information {
+  height: 100%;
+  padding-top: 20px;
+}
+
+
+.content-center {
+  padding-top: 100px;
+  padding-bottom: 100px;
+  font-size: 20px;
+}
+
+
+
+.Project-logos-right {
+  float: right;
+  margin-right: 60px;
+  padding-left: 50px;  
+}
+
+.Project-logos-left {
+  float: left;
+  margin-left: 40px;
+  padding-right: 50px;  
+}
+
+.Text-shadow-box {
+text-shadow: 
+  0 4.3px 2.2px rgba(0, 0, 0, 0.045),
+  0 10.4px 5.3px rgba(0, 0, 0, 0.065),
+  0 19.5px 10px rgba(0, 0, 0, 0.08),
+  0 34.8px 17.9px rgba(0, 0, 0, 0.095),
+  0 65.2px 33.4px rgba(0, 0, 0, 0.115),
+  0 156px 80px rgba(0, 0, 0, 0.16)
+;
+}
+
+.project-1-container { 
+ margin-top: 60px;
+ margin-left: 40px;
+ align-items: center;
+}
+
+.project-2-container { 
+ margin-top: 100px;
+ margin-left: 100px;
+ align-items: center;
+ text-align-last: left; 
+}
+
+.project-3-container { 
+ margin-top: 140px;
+ margin-left: 40px;
+ align-items: center;
+}
+
+.container-footer {
+	width: 92.5%;
+  margin: 0 auto;
+}
+
+@media only screen and (max-width: 1024px) {
+
+nav a {
+  color: #444;
+  text-decoration: none;
+  text-transform: uppercase;
+  font-size: 12px;
+}
+
+nav li {
+  display: inline-block;
+  margin-left: 50px;
+  padding-top: 40px;
+  position: relative;
+}
+
+.logo {
+  float: left;
+  max-width: 80px;
+}
+
+}
+
+@media only screen and (min-width: 2200px) { 
+
+nav a {
+  color: #444;
+  text-decoration: none;
+  text-transform: uppercase;
+  font-size: 25px;
+}
+
+.H1-content {
+  font-size: 70px;
+}
+
+.H2-content {
+    font-size: 40px;
+    font-weight: 400;
+}
+
+.content-center {
+  padding-top: 100px;
+  padding-bottom: 100px;
+  font-size: 35px;
+}
+
+.footer-links{
+ margin: 0;
+ height: 160px;
+ padding-top: 25px;
+ text-align-last: center; 
+ font-size: 40px;
+}
+
+.container-footer {
+    height: 280px;
+}
+}
+
+@media only screen and (max-width: 700px) {
+ html {
+ display: none;
+ }
+}
