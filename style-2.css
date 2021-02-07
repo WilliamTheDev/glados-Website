@@ -1,0 +1,19 @@
+@import url('https://fonts.googleapis.com/css2?family=Handlee&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Handlee&family=Potta+One&display=swap');
+
+html {
+  scroll-behavior: smooth;
+}
+#section-2 {
+ background-color: #232323;
+ 
+}
+
+body {
+  margin: 0;
+  color: white;
+  background: black;
+  font-family: 'Handlee', cursive;
+  font-style: bold;
+  font-weight: 300px;
+}
